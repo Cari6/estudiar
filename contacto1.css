@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    background-color: yellow;
+    font-size: 1.5em;
+    text-align: center;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item {
+    background-color:purple;
+    /* flex-basis: 0;
+    flex-grow: 1; */
+    /* flex: 1; */
+    height: 150px;
+   
+}
+
+.item:nth-child(even) {
+    background-color: pink;
+}
+
+.item:nth-child(2) {
+    align-self: baseline;
+}
